@@ -1,1 +1,4 @@
-front-end-dev-book
+Author: 나형진
+
+# Objective
+Learning front end development
