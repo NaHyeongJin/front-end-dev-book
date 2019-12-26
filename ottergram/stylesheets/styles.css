@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  flex: 0 1 auto;
+}
+
 .logo-text {
   background: white;
 
@@ -32,6 +36,10 @@ a {
   text-transform: uppercase;
   font-family: lakeshore;
   font-size: 37px;
+}
+
+.main-content {
+  flex: 1 1 auto;
 }
 
 .thumbnail-item + .thumbnail-item {
