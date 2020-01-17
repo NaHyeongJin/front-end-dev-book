@@ -1,6 +1,6 @@
 (function (window) {
   'use strict';
-  var App = window.App || {};
+  const App = window.App || {};
 
   function DataStore() {
     this.data = {};
