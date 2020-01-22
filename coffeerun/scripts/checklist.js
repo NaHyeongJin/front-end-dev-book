@@ -15,6 +15,10 @@
     }
   }
 
+  function Row(coffeeOrder) {
+    // Constructor code will go here
+  }
+
   App.CheckList = CheckList;
   window.App = App;
 })(window);
