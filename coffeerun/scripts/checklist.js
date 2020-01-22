@@ -31,7 +31,7 @@
 
     var $label = $('<label></label>');
 
-    var $checkout = %('<input></input>', {
+    var $checkbox = $('<input></input>', {
       type: 'checkbox',
       value: coffeeOrder.emailAddress
     });
