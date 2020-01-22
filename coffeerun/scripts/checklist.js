@@ -23,6 +23,11 @@
     this.$element.append(rowElement.$element);
   };
 
+  CheckList.prototype.removeRow = function (email) {
+    this.$element.find('[value="' + email + '"]').closest('[data-coffee-order="checkbox"]').remove();
+
+  };
+
   function Row(coffeeOrder) {
     var $div = $('<div></div>', {
       'data-coffee-order': 'checkbox',
