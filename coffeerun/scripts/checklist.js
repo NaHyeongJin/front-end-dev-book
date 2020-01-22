@@ -59,7 +59,7 @@
 
     description += coffeeOrder.coffee + ', ';
     description += ' (' + coffeeOrder.emailAddress + ')';
-    description += ' [' + coffeeOrder.strength + 'x]';
+    description += ' [' + coffeeOrder.strength + ']';
 
     $label.append($checkbox);
     $label.append(description);
