@@ -10,6 +10,10 @@
     this.serverUrl = url;
   }
 
+  RemoteDataStore.prototype.add = function (key, val) {
+    // Code will go here
+  };
+
   App.RemoteDataStore = RemoteDataStore;
   window.App = App;
 })(window);
