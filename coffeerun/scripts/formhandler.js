@@ -39,6 +39,8 @@
     })
   };
 
+  formHandler.addInputHandler(Validation.isCompanyEmail);
+
   App.FormHandler = FormHandler;
   window.App = App;
 })(window);
