@@ -27,4 +27,6 @@
 
   formHandler.addInputHandler(Validation.isCompanyEmail);
 
+  myTruck.printOrders(checkList.addRow.bind(checkList));
+
 })(window);
